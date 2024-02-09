@@ -1,0 +1,143 @@
+
+body {
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  width: 1100px;
+  padding: 0 120px;
+  background-color: #f6f6fa;
+  border-bottom: solid 2px #e9e9ed;
+}
+.div-lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #4177de;
+}
+
+.content {
+  background-color: white;
+  margin: 0;
+  padding: 80px 60px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0 100px 0;
+  background-color: #f6f6fa;
+}
+.containerhed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  line-height: 1pt;
+  font-size: 23px;
+}
+
+.container1 p {
+  line-height: 0.5;
+}
+
+.container{
+    padding: 60px 80px;
+    background-color: #f6f6fa;
+}
+
+.container3hed h2 {
+  font-size: 40px;
+}
+
+.container1 h2 {
+  line-height: 0.5;
+  font-size: 40px;
+}
+
+.containerimg1-3,
+.containerimg4-6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container2img1,
+.container2img2,
+.container2img3,
+.container2img4,
+.container2img5,
+.container2img6 {
+  text-align: center;
+  margin: 20px;
+  max-width: 600px;
+}
+
+.container2 {
+  padding: 25px 0 25px 0;
+}
+
+.container3para p {
+  line-height: 0.5;
+}
+
+.container3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0 100px 0;
+}
+
+.container4 {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  flex-direction: row;
+  padding: 100px 0 100px 0;
+}
+
+.containerimages,
+.containerimages2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container5hed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 50px 0;
+  background-color: #f6f6fa;
+  flex-direction: column;
+}
+button {
+  border: none;
+  background-color: #3c64b1;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 0;
+}
+
+button:hover {
+  border-radius: 5px;
+  transform: scale(1.12);
+}
+.containerimg img {
+  height: 400px;
+}
